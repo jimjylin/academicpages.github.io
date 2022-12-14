@@ -1,7 +1,7 @@
 ---
 title: "Formal Verification of a Multiprocessor Hypervisor on Arm Relaxed Memory Hardware"
 collection: publications
-permalink: /publication/2021-10-26-paper-title-number-1
+permalink: /publication/2021-10-26-paper-title-number-1/
 excerpt: 'Concurrent systems software is widely-used, complex, and error-prone, posing a significant security risk. We introduce VRM, a new framework that makes it possible for the first time to verify concurrent systems software, such as operating systems and hypervisors, on Arm relaxed memory hardware. VRM defines a set of synchronization and memory access conditions such that a program that satisfies these conditions can be mostly verified on a sequentially consistent hardware model and the proofs will automatically hold on relaxed memory hardware. VRM can be used to verify concurrent kernel code that is not data race free, including code responsible for managing shared page tables in the presence of relaxed MMU hardware. Using VRM, we verify the security guarantees of a retrofitted implementation of the Linux KVM hypervisor on Arm. For multiple versions of KVM, we prove KVM&apos;s security properties on a sequentially consistent model, then prove that KVM satisfies VRM&apos;s required program conditions such that its security proofs hold on Arm relaxed memory hardware. Our experimental results show that the retrofit and VRM conditions do not adversely affect the scalability of verified KVM, as it performs similar to unmodified KVM when concurrently running many multiprocessor virtual machines with real application workloads on Arm multiprocessor server hardware. Our work is the first machine-checked proof for concurrent systems software on Arm relaxed memory hardware.'
 date: 2021-10-26
 venue: 'SOSP 2021'
