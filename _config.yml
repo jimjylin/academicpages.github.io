@@ -11,7 +11,6 @@ title                    : "SSLab@NTU"
 title_separator          : "-"
 name                     : &name "NTU SSLab"
 description              : &description "personal description"
-# url                      : "http://localhost:4000/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 url                      : "https://jimjylin.github.io/academicpages.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jimjylin/academicpages.github.io"
@@ -119,6 +118,8 @@ author:
   youtube          :
   wikipedia        :
 
+# members list
+members                  : ['陳翰生', 'Joey LI', '章瑋麟', '陳昱暢', '曾詠琪', '陳建豪', '徐翊凌', '許智凱', '林俊諺', '李宥霆']
 
 # Reading Files
 include:

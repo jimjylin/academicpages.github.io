@@ -1,0 +1,17 @@
+---
+permalink: /members/
+title: "Members"
+excerpt: "About SSLab"
+author_profile: false
+---
+
+{% include base_path %}
+
+
+<div class="members">
+  <ul>
+    {% for member in site.members %}
+      <li>{{ member }}</li>
+    {% endfor %}
+  </ul>
+</div>
