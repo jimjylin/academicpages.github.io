@@ -16,7 +16,7 @@
 
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if author.bio %}<p class="author__bio"><a href="{{ author.uri }}">{{ author.bio }}</a></p>{% endif %}
     <img src="{{ author.email_image | prepend: "/images/" | prepend: base_path }}" alt="{{ author.name }}">
   </div>
 
@@ -27,9 +27,6 @@
       {% endif %}
       {% if author.employer %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>
-      {% endif %}
-      {% if author.uri %}
-        <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Personal Website</a></li>
       {% endif %}
       {% if author.phone %}
         <li><i class="fas fa-fw fa-phone" aria-hidden="true"></i> {{ author.phone }}</li>
