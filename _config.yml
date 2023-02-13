@@ -11,7 +11,7 @@ title                    : "SSLab@NTU"
 title_separator          : "-"
 name                     : &name "NTU SSLab"
 description              : &description "personal description"
-url                      : "https://jimjylin.github.io/academicpages.github.io"
+url                      : "http://localhost:4000/"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jimjylin/academicpages.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -77,6 +77,9 @@ analytics:
   google:
     tracking_id          :
 
+# members list
+members                  : ['陳翰生', 'Joey LI', '章瑋麟', '陳昱暢', '曾詠琪', '陳建豪', '徐翊凌', '許智凱', '林俊諺', '李宥霆', '鄭明淵', 
+  '曾揚哲', '石諾盟', '林稜凱', '林順訢', '江昱勳', '陳亮君', '李建霖', '王友廷', '江立中', '楊方捷', '王苡涵', '魏晧融', '杜展廷']
 
 # Site Author
 author:
@@ -117,9 +120,6 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-
-# members list
-members                  : ['陳翰生', 'Joey LI', '章瑋麟', '陳昱暢', '曾詠琪', '陳建豪', '徐翊凌', '許智凱', '林俊諺', '李宥霆']
 
 # Reading Files
 include:
@@ -269,6 +269,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-seo-tag
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
